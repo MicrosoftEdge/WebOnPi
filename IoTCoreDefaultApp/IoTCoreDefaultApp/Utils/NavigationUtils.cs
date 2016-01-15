@@ -9,6 +9,10 @@ namespace IoTCoreDefaultApp
 {
     public static class NavigationUtils
     {
+        public static void NavigateToWebView(WebView wv, Uri uri)
+        {
+            wv.Navigate(uri);
+        }
         public static void NavigateToScreen(Type screenType)
         {
             var rootFrame = Window.Current.Content as Frame;

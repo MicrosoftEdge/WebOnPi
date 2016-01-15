@@ -2,6 +2,7 @@
 
 
 using System;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -29,24 +30,17 @@ namespace IoTCoreDefaultApp
     public sealed partial class TutorialMainPage : Page
     {
         private DispatcherTimer timer;
-
+        private Uri sampleUri;
         public TutorialMainPage()
         {
             this.InitializeComponent();
 
-#if !ALWAYS_SHOW_BLINKY
-            if (DeviceTypeInformation.Type != DeviceTypes.RPI2 && DeviceTypeInformation.Type != DeviceTypes.DB410)
-            {
-                TutorialList.Items.Remove(HelloBlinkyGridViewItem);
-            }
-#endif
             this.NavigationCacheMode = NavigationCacheMode.Enabled;
 
             this.DataContext = LanguageManager.GetInstance();
 
             this.Loaded += (sender, e) =>
             {
-                UpdateBoardInfo();
                 UpdateDateTime();
 
                 timer = new DispatcherTimer();
@@ -64,17 +58,6 @@ namespace IoTCoreDefaultApp
         private void timer_Tick(object sender, object e)
         {
             UpdateDateTime();
-        }
-
-        private void UpdateBoardInfo()
-        {
-            if (DeviceTypeInformation.Type == DeviceTypes.DB410)
-            {
-                TutorialsImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/DB410-tutorials.png"));
-                GetStartedImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/Tutorials/GetStarted-DB410.jpg"));
-                HelloBlinkyTileImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/Tutorials/HelloBlinkyTile-DB410.jpg"));
-                GetConnectedImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/Tutorials/GetConnected-DB410.jpg"));
-            }
         }
 
         private void UpdateDateTime()
@@ -123,7 +106,6 @@ namespace IoTCoreDefaultApp
                     break;
             }
         }
-
         private void SettingsButton_Clicked(object sender, RoutedEventArgs e)
         {
             NavigationUtils.NavigateToScreen(typeof(Settings));
@@ -133,7 +115,11 @@ namespace IoTCoreDefaultApp
         {
             NavigationUtils.NavigateToScreen(typeof(MainPage));
         }
-
+        private void Samples_Clicked(object sender, RoutedEventArgs e)
+        {
+            showAllSamples();
+            NavigationUtils.NavigateToScreen(typeof(TutorialMainPage));
+        }
         private void TutorialList_ItemClick(object sender, ItemClickEventArgs e)
         {
             var item = e.ClickedItem as FrameworkElement;
@@ -143,13 +129,58 @@ namespace IoTCoreDefaultApp
             }
             switch (item.Name)
             {
-                case "HelloBlinky":
-                    NavigationUtils.NavigateToScreen(typeof(TutorialHelloBlinkyPage), item.Name);
+                case "S1":
+                    AppLaunch(new Uri("edgeonpi1:launch"), new Uri("http://seksenov.github.io/WebHelloBlinky/"));
+                    break;
+                case "S2":
+                    AppLaunch(new Uri("edgeonpi2:launch"), new Uri("http://microsoftedge.github.io/JSBrowser/"));
+                    break;
+                case "S3":
+                    NavigateToSample(new Uri("http://codepen.io/seksenov/pen/bERWWw"));
+                    break;
+                case "S4":
+                    AppLaunch(new Uri("edgeonpi4:launch"), new Uri("http://windowstodo.meteor.com/"));
                     break;
                 default:
                     NavigationUtils.NavigateToScreen(typeof(TutorialContentPage), item.Name);
                     break;
             }
+        }
+        private void NavigateToSample(Uri uri)
+        {
+            showSpinner();
+            NavigationUtils.NavigateToWebView(WebViewWithSample, uri);
+        }
+        async void AppLaunch(Uri uri, Uri fallback)
+        {
+            var success = await Windows.System.Launcher.LaunchUriAsync(uri);
+            if (!success)
+            {
+                // URI launch failed so launch the website in a web view
+               NavigateToSample(fallback);
+            }
+        }
+        private void WevViewWithSample_LoadCompleted(object sender, NavigationEventArgs e)
+        {
+            showSample();
+        }
+        private void showSample()
+        {
+            WebViewWithSample.Visibility = Visibility.Visible;
+            TutorialList.Visibility = Visibility.Collapsed;
+            Spinner.Visibility = Visibility.Collapsed;
+        }
+        private void showSpinner()
+        {
+            WebViewWithSample.Visibility = Visibility.Collapsed;
+            TutorialList.Visibility = Visibility.Collapsed;
+            Spinner.Visibility = Visibility.Visible;
+        }
+        private void showAllSamples()
+        {
+            WebViewWithSample.Visibility = Visibility.Collapsed;
+            TutorialList.Visibility = Visibility.Visible;
+            Spinner.Visibility = Visibility.Collapsed;
         }
     }
 }

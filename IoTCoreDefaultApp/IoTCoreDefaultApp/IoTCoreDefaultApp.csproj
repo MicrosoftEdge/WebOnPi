@@ -149,42 +149,22 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Assets\devices.png" />
     <Content Include="Assets\Fonts\IOTMDL2.1.35.ttf" />
     <None Include="IoTCoreDefaultApp_TemporaryKey.pfx" />
-    <PRIResource Include="Strings\zh-TW\Resources.resw" />
-    <PRIResource Include="Strings\zh-CN\Resources.resw" />
-    <PRIResource Include="Strings\ru-RU\Resources.resw" />
-    <PRIResource Include="Strings\pt-BR\Resources.resw" />
-    <PRIResource Include="Strings\ko-KR\Resources.resw" />
-    <PRIResource Include="Strings\ja-JP\Resources.resw" />
-    <PRIResource Include="Strings\it-IT\Resources.resw" />
-    <PRIResource Include="Strings\fr-FR\Resources.resw" />
-    <PRIResource Include="Strings\es-ES\Resources.resw" />
-    <PRIResource Include="Strings\de-DE\Resources.resw" />
     <PRIResource Include="Strings\en-US\Resources.resw">
       <SubType>Designer</SubType>
     </PRIResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\GenericBoard.png" />
-    <Content Include="Assets\Tutorials\GetCoding-003.png" />
-    <Content Include="Assets\Tutorials\GetCoding.jpg" />
-    <Content Include="Assets\Tutorials\GetCodingTile.jpg" />
-    <Content Include="Assets\Tutorials\GetConnected-004.jpg" />
-    <Content Include="Assets\Tutorials\GetConnected-006.jpg" />
-    <Content Include="Assets\Tutorials\GetConnected-RPI2.jpg" />
-    <Content Include="Assets\Tutorials\GetConnected-DB410.jpg" />
+    <Content Include="Assets\Microsoft_Edge_logo.png" />
+    <Content Include="Assets\Tutorials\blinky_web_app.png" />
+    <Content Include="Assets\Tutorials\codepen.png" />
     <Content Include="Assets\MBMBoard.png" />
     <Content Include="Assets\RaspberryPiBoard.png" />
-    <Content Include="Assets\DB410Board.png" />
-    <Content Include="Assets\rpi2-tutorials.png" />
-    <Content Include="Assets\DB410-tutorials.png" />
-    <Content Include="Assets\Tutorials\GetStarted-RPI2.jpg" />
-    <Content Include="Assets\Tutorials\GetStarted-DB410.jpg" />
-    <Content Include="Assets\Tutorials\HelloBlinky.jpg" />
-    <Content Include="Assets\Tutorials\HelloBlinky-004.jpg" />
-    <Content Include="Assets\Tutorials\HelloBlinkyTile-RPI2.jpg" />
-    <Content Include="Assets\Tutorials\HelloBlinkyTile-DB410.jpg" />
+    <Content Include="Assets\Tutorials\js_browser.png" />
+    <Content Include="Assets\Tutorials\meteor_todos.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />

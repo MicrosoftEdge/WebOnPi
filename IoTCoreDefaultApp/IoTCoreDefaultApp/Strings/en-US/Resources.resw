@@ -271,44 +271,44 @@
     <value>Status</value>
     <comment>Status of the network connection (e.g. not connected, limited, etc.)</comment>
   </data>
-  <data name="TutorialGetCodingDescriptionText" xml:space="preserve">
-    <value>Learn how to write code remotely from your PC</value>
+  <data name="S4DescriptionText" xml:space="preserve">
+    <value>A simple todos application made with MeteorJS</value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
-  <data name="TutorialGetCodingTitleText" xml:space="preserve">
-    <value>Get Coding</value>
+  <data name="S4TitleText" xml:space="preserve">
+    <value>MeteorJS Todos </value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
-  <data name="TutorialGetConnectedDescriptionText" xml:space="preserve">
-    <value>Connect your device to the internet and to your PC</value>
+  <data name="S3DescriptionText" xml:space="preserve">
+    <value>Use JavaScript on the fly to play with the on-board LED</value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
-  <data name="TutorialGetConnectedTitleText" xml:space="preserve">
-    <value>Get Connected</value>
+  <data name="S3TitleText" xml:space="preserve">
+    <value>Blinky with CodePen</value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
-  <data name="TutorialGetStartedDescriptionText" xml:space="preserve">
-    <value>Get introduced to Windows 10 IoT Core</value>
+  <data name="S1DescriptionText" xml:space="preserve">
+    <value>Control the on-board LED with a JavaScript application </value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
-  <data name="TutorialGetStartedTitleText" xml:space="preserve">
-    <value>Get Started</value>
+  <data name="S1TitleText" xml:space="preserve">
+    <value>Hello web blinky</value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
   <data name="TutorialHeaderText" xml:space="preserve">
-    <value>Learn how to make the most of Windows 10 IoT Core</value>
+    <value>Sample web applications</value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
-  <data name="TutorialHelloBlinkyDescriptionText" xml:space="preserve">
-    <value>Toggle an LED on your device</value>
+  <data name="S2DescriptionText" xml:space="preserve">
+    <value>A web browser made entirely with web technology</value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
-  <data name="TutorialHelloBlinkyTitleText" xml:space="preserve">
-    <value>Hello Blinky</value>
+  <data name="S2TitleText" xml:space="preserve">
+    <value>Explore the web!</value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
   <data name="TutorialTitleText" xml:space="preserve">
-    <value>Resources and tools to help you get connected and developing</value>
+    <value />
   </data>
   <data name="TutorialBlinkyBody1Text" xml:space="preserve">
     <value>The first, and most basic thing a board should do is blink.</value>

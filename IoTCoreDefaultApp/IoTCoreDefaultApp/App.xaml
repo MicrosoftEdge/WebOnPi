@@ -21,15 +21,14 @@
     THE SOFTWARE.
 -->
 
-<Application
-    x:Class="IoTCoreDefaultApp.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:IoTCoreDefaultApp"
+<Application 
+    x:Class="IoTCoreDefaultApp.App" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:local="using:IoTCoreDefaultApp" 
     RequestedTheme="Dark">
 
     <Application.Resources>
         <ResourceDictionary Source="Styles.xaml"/>
     </Application.Resources>
-
-</Application>
+</Application> 
