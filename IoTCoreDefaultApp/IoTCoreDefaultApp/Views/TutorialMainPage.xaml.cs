@@ -130,16 +130,16 @@ namespace IoTCoreDefaultApp
             switch (item.Name)
             {
                 case "S1":
-                    AppLaunch(new Uri("edgeonpi1:launch"), new Uri("http://seksenov.github.io/WebHelloBlinky/"));
+                    AppLaunch(new Uri("webonpi1:launch"), new Uri("http://seksenov.github.io/WebHelloBlinky/"));
                     break;
                 case "S2":
-                    AppLaunch(new Uri("edgeonpi2:launch"), new Uri("http://microsoftedge.github.io/JSBrowser/"));
+                    AppLaunch(new Uri("webonpi2:launch"), new Uri("http://microsoftedge.github.io/JSBrowser/"));
                     break;
                 case "S3":
-                    NavigateToSample(new Uri("http://codepen.io/seksenov/pen/bERWWw"));
+                    AppLaunch(new Uri("webonpi3:launch"), new Uri("http://codepen.io/seksenov/pen/bERWWw"));
                     break;
                 case "S4":
-                    AppLaunch(new Uri("edgeonpi4:launch"), new Uri("http://windowstodo.meteor.com/"));
+                    AppLaunch(new Uri("webonpi4:launch"), new Uri("http://windowstodo.meteor.com/"));
                     break;
                 default:
                     NavigationUtils.NavigateToScreen(typeof(TutorialContentPage), item.Name);

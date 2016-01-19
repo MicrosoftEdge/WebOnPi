@@ -110,7 +110,7 @@ namespace IoTCoreDefaultApp
 #if !FORCE_OOBE_WELCOME_SCREEN
                 if (ApplicationData.Current.LocalSettings.Values.ContainsKey(Constants.HasDoneOOBEKey))
                 {
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(TutorialMainPage), e.Arguments);
                 }
                 else
 #endif

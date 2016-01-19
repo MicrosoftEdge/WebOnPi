@@ -300,11 +300,11 @@
     <comment>Tutorial titles and subtitles</comment>
   </data>
   <data name="S2DescriptionText" xml:space="preserve">
-    <value>A web browser made entirely with web technology</value>
+    <value>Tweet something out with #WebOnPi and see it magically appear on this app</value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
   <data name="S2TitleText" xml:space="preserve">
-    <value>Explore the web!</value>
+    <value>#WebOnPi</value>
     <comment>Tutorial titles and subtitles</comment>
   </data>
   <data name="TutorialTitleText" xml:space="preserve">

@@ -150,7 +150,7 @@
                             <ColumnDefinition Width="4"/>
                         </Grid.ColumnDefinitions>
 
-                        <Image x:Name="S2Image" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Source="ms-appx:///Assets/Tutorials/js_browser.png" Width="317"/>
+                        <Image x:Name="S2Image" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Source="ms-appx:///Assets/Tutorials/twit-on-pi.png" Width="317"/>
                         <StackPanel VerticalAlignment="Bottom" Grid.Row="2" Grid.Column="2">
                             <TextBlock Text="{Binding [S2TitleText]}" Style="{StaticResource EdgeSampleTitleTextBlockStyle}" TextWrapping="WrapWholeWords" Width="317"/>
                             <TextBlock Text="{Binding [S2DescriptionText]}" Style="{StaticResource EdgeSampleDescriptionTextBlockStyle}"  TextWrapping="WrapWholeWords" Width="317"/>
