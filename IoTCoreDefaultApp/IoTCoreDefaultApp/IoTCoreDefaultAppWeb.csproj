@@ -149,7 +149,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <Content Include="Assets\devices.png" />
     <Content Include="Assets\Fonts\IOTMDL2.1.35.ttf" />
     <None Include="IoTCoreDefaultApp_TemporaryKey.pfx" />
     <PRIResource Include="Strings\en-US\Resources.resw">
@@ -161,7 +160,6 @@
     <Content Include="Assets\Microsoft_Edge_logo.png" />
     <Content Include="Assets\Tutorials\blinky_web_app.png" />
     <Content Include="Assets\Tutorials\codepen.png" />
-    <Content Include="Assets\MBMBoard.png" />
     <Content Include="Assets\RaspberryPiBoard.png" />
     <Content Include="Assets\Tutorials\meteor_todos.png" />
     <Content Include="Assets\Tutorials\twit-on-pi.png" />
