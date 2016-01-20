@@ -4,10 +4,10 @@ This repo contains the default XAML application for the #WebOnPi project. The ma
 
 #Sample Demos
 
-*Hello Binky Web App
-*#WebOnPi
-*Blinky with CodePen
-*MeteorJSTodos
+* Hello Binky Web App
+* #WebOnPi
+* Blinky with CodePen
+* MeteorJSTodos
 
 The samples have been validated using these tools:
 
