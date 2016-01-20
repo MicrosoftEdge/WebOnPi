@@ -2,6 +2,13 @@
 
 This repo contains the default XAML application for the #WebOnPi project. The majority of the code was borrowed from [the Windows IoT Core samples](https://github.com/ms-iot/samples/tree/develop/IoTCoreDefaultApp).
 
+#Sample Demos
+
+*Hello Binky Web App
+*#WebOnPi
+*Blinky with CodePen
+*MeteorJSTodos
+
 The samples have been validated using these tools:
 
 * [Visual Studio 2015](http://go.microsoft.com/fwlink/?LinkID=534599)
