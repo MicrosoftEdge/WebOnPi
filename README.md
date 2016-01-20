@@ -8,8 +8,8 @@ The samples have been validated using these tools:
 
 * [Visual Studio 2015 Update 1](http://go.microsoft.com/fwlink/?LinkID=691134)
 
-For more information about the #WebOnPi project, see our online documentation [here](http://aka.ms/webonpi)
+For more information about the #WebOnPi project, see our online documentation [here](http://aka.ms/webonpi).
 
-For more information about Windows 10 IoT Core, see our online documentation [here](http://windowsondevices.com)
+For more information about Windows 10 IoT Core, see our online documentation [here](http://windowsondevices.com).
 
 
