@@ -5,6 +5,8 @@
 *.suo
 *.user
 *.sln.docstates
+IoTCoreDefaultApp/IoTCoreDefaultAppWeb.VC.opendb
+
 
 # Build results
 [Dd]ebug/
