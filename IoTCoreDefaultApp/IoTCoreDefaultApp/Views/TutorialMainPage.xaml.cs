@@ -141,6 +141,9 @@ namespace IoTCoreDefaultApp
                 case "S4":
                     AppLaunch(new Uri("webonpi4:launch"), new Uri("http://windowstodo.meteor.com/"));
                     break;
+                case "S5":
+                    AppLaunch(new Uri("webonpi5:launch"), new Uri("http://aka.ms/meteor-tutorial/")); 
+                    break;
                 default:
                     NavigationUtils.NavigateToScreen(typeof(TutorialContentPage), item.Name);
                     break;

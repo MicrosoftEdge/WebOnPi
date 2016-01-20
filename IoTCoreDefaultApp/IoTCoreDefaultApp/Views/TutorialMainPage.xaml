@@ -203,6 +203,29 @@
                         </StackPanel>
                     </Grid>
                 </GridViewItem>
+                <GridViewItem>
+                    <Grid x:Name="S5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="14" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="36" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="4"/>
+                            <ColumnDefinition Width="4"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4"/>
+                            <ColumnDefinition Width="4"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Source="ms-appx:///Assets/Tutorials/meteor_js.png" Width="317"/>
+                        <StackPanel VerticalAlignment="Bottom" Grid.Row="2" Grid.Column="2">
+                            <TextBlock Text="{Binding [S5TitleText]}" Style="{StaticResource EdgeSampleTitleTextBlockStyle}" TextWrapping="WrapWholeWords" Width="317"/>
+                            <TextBlock Text="{Binding [S5DescriptionText]}" Style="{StaticResource EdgeSampleDescriptionTextBlockStyle}" TextWrapping="WrapWholeWords" Width="317"/>
+                        </StackPanel>
+                    </Grid>
+                </GridViewItem>
             </GridView>
         </Grid>
     </Grid>

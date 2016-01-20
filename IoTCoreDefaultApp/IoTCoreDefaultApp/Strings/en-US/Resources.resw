@@ -697,4 +697,10 @@
 {1}</value>
     <comment>Format for message displayed when an inbounbd pairing request is received</comment>
   </data>
+  <data name="S5DescriptionText" xml:space="preserve">
+    <value>Learn how to use the popular JavaScript app platform and deploy your first app to the Pi</value>
+  </data>
+  <data name="S5TitleText" xml:space="preserve">
+    <value>MeteorJS on Pi</value>
+  </data>
 </root>

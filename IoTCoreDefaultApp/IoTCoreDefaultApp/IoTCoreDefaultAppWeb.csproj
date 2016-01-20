@@ -161,6 +161,7 @@
     <Content Include="Assets\Tutorials\blinky_web_app.png" />
     <Content Include="Assets\Tutorials\codepen.png" />
     <Content Include="Assets\RaspberryPiBoard.png" />
+    <Content Include="Assets\Tutorials\meteor_js.png" />
     <Content Include="Assets\Tutorials\meteor_todos.png" />
     <Content Include="Assets\Tutorials\twit-on-pi.png" />
     <Content Include="Properties\Default.rd.xml" />
