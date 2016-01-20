@@ -1,17 +1,9 @@
-Windows 10 IoT Core Samples
+#WebOnPi Default App
 ==============
 
-##Welcome to the Windows 10 IoT Core Samples
+This repo contains the default XAML application for the #WebOnPi project. The majority of the code was borrowed from [the Windows IoT Core samples](https://github.com/ms-iot/samples/tree/develop/IoTCoreDefaultApp).
 
-These samples have been validated on Windows IoT Core November Update (10.0.10586.0):
-
-* [Raspberry Pi 2](http://go.microsoft.com/fwlink/?LinkId=691711)
-
-* [MinnowBoard Max](http://go.microsoft.com/fwlink/?LinkId=691712)
-
-* [DragonBoard 410c](http://go.microsoft.com/fwlink/?LinkId=691713)
-
-These samples have been validated using these tools:
+The samples have been validated using these tools:
 
 * [Visual Studio 2015](http://go.microsoft.com/fwlink/?LinkID=534599)
 
@@ -22,5 +14,4 @@ Please download, build, deploy, and contribute!!  For more information and descr
 
 For more information about Windows 10 IoT Core, see our online documentation [here](http://windowsondevices.com)
 
-We are working hard to improve Windows 10 IoT Core and deeply value any feedback we get.
 
