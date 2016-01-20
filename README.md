@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Windows 10 IoT Core Samples
 ==============
 
@@ -23,3 +24,6 @@ Please download, build, deploy, and contribute!!  For more information and descr
 For more information about Windows 10 IoT Core, see our online documentation [here](http://windowsondevices.com)
 
 We are working hard to improve Windows 10 IoT Core and deeply value any feedback we get.
+=======
+# WebOnPi
+>>>>>>> d518730c86cf136d3a882701eb894f45cabae560
