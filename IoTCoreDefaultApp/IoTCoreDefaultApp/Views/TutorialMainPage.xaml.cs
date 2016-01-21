@@ -136,7 +136,7 @@ namespace IoTCoreDefaultApp
                     AppLaunch(new Uri("webonpi2:launch"), new Uri("http://microsoftedge.github.io/JSBrowser/"));
                     break;
                 case "S3":
-                    NavigateToSample(new Uri("http://codepen.io/seksenov/pen/obpLmR?editors=101"));
+                    NavigateToSample(new Uri("http://codepen.io/seksenov/pen/JGMmvN?editors=101"));
                     break;
                 case "S4":
                     AppLaunch(new Uri("webonpi4:launch"), new Uri("http://windowstodo.meteor.com/"));
