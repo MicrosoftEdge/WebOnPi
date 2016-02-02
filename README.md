@@ -29,5 +29,5 @@ We used [the Noun Project] (https://thenounproject.com) for the home application
  - [Checkmark icon](https://thenounproject.com/search/?q=checkmarks&i=308000) 
  - [Home icon](https://thenounproject.com/search/?q=home&i=11792)
  - [LED icon](https://thenounproject.com/search/?q=led&i=23393)
- - [Twitter icon](https://thenounproject.com/search/?q=twitter&i=175680)  
+ - [Hashtag icon](https://thenounproject.com/search/?q=twitter&i=175680)  
 
