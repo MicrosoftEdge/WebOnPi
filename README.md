@@ -1,5 +1,7 @@
 # Welcome to the #WebOnPi project!
 
+[![Gitter](https://badges.gitter.im/MicrosoftEdge/WebOnPi.svg)](https://gitter.im/MicrosoftEdge/WebOnPi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 This repo contains the default XAML application for the #WebOnPi project. The majority of the code was borrowed from [the Windows IoT Core samples](https://github.com/ms-iot/samples/tree/develop/IoTCoreDefaultApp).
 
 ##Other
