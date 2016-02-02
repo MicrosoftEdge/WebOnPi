@@ -9,7 +9,7 @@ You can find more info about the #WebOnPi project [here](http://aka.ms/webonpi) 
 ##Sample Apps
 
 - **Web Hello Blinky** allows you to toggle and modulate the blinking frequency of the on-board LED. This is possible thanks to the simple JavaScript projections of WinRT APIs. Check out the [web app's repo](https://github.com/seksenov/WebHelloBlinky) to see how you can easily control the Pi's GPIO's through JavaScript. You can download the UWP app [here](https://github.com/andypavia/WebHelloBlinkyUWP)   
-- **#WebOnPi** shows the newest 20 tweets with the hashtag: #WebOnPi. Tweet something out to see your tweet glide among the clouds all thanks to the Pi! 
+- **#WebOnPi** shows the newest 10 tweets with the hashtag: #WebOnPi. Tweet something out to see your tweet glide among the clouds all thanks to the Pi! 
 - **Blinky with CodePen**. CodePen's power is now available on the Pi. Play with HTML, CSS, and JavaScript on the fly! See web app's code [here](https://github.com/csuwildcat/webonpi) and UWP app [here](https://github.com/andypavia/WebHelloBlinkyUWP)
 - **MeteorJS Todos** helps you stay organized no matter your device. Desktop, mobile or even a Raspberry Pi, we got you covered. The app is built with the platform MeteorJS. Get the web app's code [here](https://github.com/seksenov/WindowsToDos)  and the UWP app [here](https://github.com/andypavia/WebHelloBlinkyUWP)
 - **MeteorJS Tutorial**. Learn how to build and deploy a MeteorJS app to the Pi 
