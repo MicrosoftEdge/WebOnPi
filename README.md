@@ -14,6 +14,11 @@ You can find more info about the #WebOnPi project [here](http://aka.ms/webonpi) 
 - **MeteorJS Todos** helps you stay organized no matter your device. Desktop, mobile or even a Raspberry Pi, we got you covered. The app is built with the platform MeteorJS. Get the web app's code [here](https://github.com/seksenov/WindowsToDos)  and the UWP app [here](https://github.com/andypavia/WebHelloBlinkyUWP)
 - **MeteorJS Tutorial**. Learn how to build and deploy a MeteorJS app to the Pi 
 
+##Deployment
+
+1. [Deploying using ManifoldJS](http://microsoftedge.github.io/WebAppsDocs/en-US/win10/CreateHWA.htm#mac) 
+2. [Deploying using Visual Studio](http://microsoftedge.github.io/WebAppsDocs/en-US/win10/DeployToPiWithVS.htm) (Windows)
+
 ##Tools
 
 The samples have been validated using these tools:
